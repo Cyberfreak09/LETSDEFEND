@@ -1,0 +1,32 @@
+Golden Ticket
+An alert has been triggered within a network, indicating a possible attack on the Domain Controller (DC). The security team has detected suspicious activity suggesting lateral movement attempts from a compromised workstation to the DC. The attacker, identified as having infiltrated the network, appears to be targeting sensitive systems. An investigator is tasked with analyzing network traffic, reviewing event logs, and identifying how the attacker is navigating through the environment. The goal is to trace the attacker's steps, determine their access point, and prevent further escalation to the Domain Controller.
+
+File Location: C:\Users\LetsDefend\Desktop\ChallengeFile\goldenticket.7z
+
+File Password: infected
+
+
+When did the attacker first access the service account within the Domain Controller environment?
+Answer Format: (YYYY-MM-DD HH:MM:SS UTC)
+ 
+Answer: 2024-10-05 16:50:29 UTC
+
+What is the name of the compromised service account?
+ 
+Answer: SQLservice
+
+Which IP address and port were used by the attacker to log into the compromised account?
+ 
+Answer: 192.168.110.129:48858
+
+Before that the same attacker tried to perform an AS-REP attack. What user account did the attacker target during this Kerberos attack?
+
+
+When did the attacker request that TGT ticket to perform the AS-REP attack?
+Answer Format: (YYYY-MM-DD HH:MM:SS UTC)
+
+After gaining access to the Domain Controller, the attacker attempted to generate a Golden Ticket to impersonate a DC user. What was the target account?
+
+At what time did the attacker try to log in using the Golden Ticket?
+Answer Format: (YYYY-MM-DD HH:MM:SS UTC)
+
